@@ -1,0 +1,184 @@
+
+
+
+* {
+    --rose-800: #7A284E;
+    --rose-50: #FFF7FB;
+
+    --stone-900: #312E2C;
+    --stone-600: #5F564D;
+    --stone-150: #E3DDD7;
+    --stone-100: #F3E5D7;
+
+    --brown-800: #854632;
+
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit, serif;
+    color: var(--stone-600);
+}
+
+body {
+    background-color: #F3E5D7;
+}
+
+.card {
+    border-radius: 24px;
+    width: 736px;
+    position: relative;
+    left: 50%;
+    translate: -50% 0;
+    background-color: white;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.content {
+    margin: 0 40px 0 40px;
+    padding: 40px 0 40px 0;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.content .text h1, .content .text h2 {
+    font-family: "Young Serif", serif;
+    font-weight: normal;
+}
+  
+.content .text h1 {
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: var(--stone-900);
+}
+
+.content .text h2 {
+    font-size: 28px;
+}
+
+.text p {
+    color: var(--stone-600);
+    line-height: 1.5;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+.prep-time {
+    background-color: var(--rose-50);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.prep-time h3 {
+    color: var(--rose-800);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.prep-time ul {
+    margin-left: 20px;
+}
+
+.prep-time ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.prep-time ul li:last-child{
+    margin: 0;
+}
+
+.prep-time ul li::marker{
+    color: var(--rose-800);
+    font-size: 12px;
+}
+
+.ingredients h2 {
+    color: var(--brown-800);
+    margin-bottom: 25px;
+}
+
+.ingredients ul {
+    margin-left: 30px;
+}
+
+.ingredients ul li {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.ingredients ul li::marker {
+    color: var(--brown-800);
+    font-size: 12px
+}
+
+.ingredients + hr {
+    margin: 32px 0 32px 0;
+}
+
+
+.instructions h2 {
+    color: var(--brown-800);
+    margin-bottom: 24px;
+}
+
+.instructions ol {
+    margin-left: 25px;
+}
+
+.instructions ol li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.instructions ol li::marker {
+    color: var(--brown-800);
+    font-weight: bold;
+
+}
+
+.instructions + hr {
+    margin: 32px 0 32px 0;  
+}
+
+
+.nutrition h2 {
+    color: var(--brown-800);
+    margin-bottom: 24px;
+}
+
+.nutrition p {
+    margin-bottom: 24px;
+}
+
+.nutrition .row {
+    display: flex;
+}
+
+.nutrition .row .cell-1 {
+    flex: 1;
+    margin-left: 32px;
+}
+
+.nutrition .row .cell-2 {
+    flex: 1;
+    color: var(--brown-800);
+    font-weight: bold;
+
+}
+
+.nutrition hr {
+    margin: 18px 0 18px 0;
+}
+
+.footer {
+    text-align: center;
+}
